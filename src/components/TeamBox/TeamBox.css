@@ -1,0 +1,18 @@
+.container-staff .profile-staff img {
+    width: 100%;
+}
+
+.container-staff .details-staff h3 {
+    font-size: 30px;
+    color: var(blue);
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.container-staff .details-staff p {
+    font-size: 18px;
+    color: #7c7c7c;
+    font-weight: 400;
+    text-align: center;
+}

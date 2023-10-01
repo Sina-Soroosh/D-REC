@@ -1,0 +1,147 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 20px;
+    background-color: rgba(48, 48, 78, 0.23);
+    z-index: 3;
+}
+
+.header .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header .logo-header img {
+    width: 100%;
+}
+
+.right-header {
+    padding-right: 20px;
+}
+
+.right-header .menu {
+    display: flex;
+    gap: 25px;
+    padding: 0 20px 0 0;
+}
+
+.right-header .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.right-header .menu .item-menu:hover a {
+    color: #A3A9AA;
+}
+
+.logo-menu {
+    display: none;
+}
+
+.logo-close {
+    display: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .header .content-header {
+        display: block;
+    }
+
+    .left-header {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .left-header .logo-header img {
+        width: 130px;
+    }
+
+    .right-header .menu {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #cover-page {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.205);
+        z-index: 4;
+        cursor: no-drop;
+    }
+
+    .header .content-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-menu {
+        display: block;
+        background-color: var(--blue-light);
+        width: 35px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: #ececec;
+        font-size: 15px;
+        cursor: pointer;
+        border: 2px solid;
+    }
+
+    .logo-close {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+        background-color: var(--blue-light);
+        color: #ececec;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 2px solid #A3A9AA;
+    }
+
+    .right-header {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        background-color: var(--white-50);
+        padding: 10px 10px;
+        z-index: 5;
+        transition: 0.3s;
+    }
+
+    .right-header .menu {
+        display: block;
+    }
+
+    .right-header .menu .item-menu {
+        padding: 10px 0;
+    }
+
+    .right-header .menu a {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        padding: 0 85px 0 15px;
+    }
+
+    .show-menu {
+        left: 0;
+    }
+}

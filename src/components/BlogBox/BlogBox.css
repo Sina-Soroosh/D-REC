@@ -1,0 +1,66 @@
+.blog-box {
+    margin: 20px 0;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.blog-box .image-blog img {
+    width: 100%;
+}
+
+.blog-box .text-blog {
+    padding: 15px 0;
+}
+
+.blog-box .text-blog .title-blog {
+    border-bottom: 1px solid #eee;
+    padding: 0 20px;
+}
+
+.blog-box .text-blog .title-blog h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--blue-main);
+}
+
+.text-blog .title-blog p span {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #bbb;
+}
+
+.text-blog .title-blog p span span {
+    margin-right: 5px;
+    color: var(--blue);
+}
+
+.blog-box .text-blog .desc-blog {
+    padding: 10px 20px 0 20px;
+}
+
+.blog-box .text-blog .desc-blog p {
+    color: #bbb;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.blog-box .details {
+    padding: 0 20px 20px 20px;
+}
+
+.blog-box .details a {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--blue-main);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.blog-box .details a:hover {
+    background-color: var(--blue);
+}

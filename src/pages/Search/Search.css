@@ -1,0 +1,56 @@
+.content-search {
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.content-search .found-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-search .found-items h4 {
+    font-size: 24px;
+    color: #ccc;
+    font-weight: 400;
+}
+
+.content-search .found-items h4 span {
+    color: var(--blue);
+}
+
+.content-search .found-items .categories {
+    align-items: center;
+}
+
+.found-items .categories .category-item label {
+    background: var(--blue-light);
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.found-items .categories .category-item label:hover,
+.found-items .categories .category-item label.active {
+    background-color: var(--blue);
+}
+
+@media screen and (max-width : 768px) {
+    .content-search .found-items {
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    .content-search .found-items h4 {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 580px) {
+    .content-search .found-items div {
+        width: 100%;
+    }
+}

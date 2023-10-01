@@ -1,0 +1,246 @@
+.details-house {
+    margin: 40px 0;
+}
+
+.details-house .text-house {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-house .name-house h2 {
+    color: var(--blue);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.details-house .name-house p {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.details-house .name-house span {
+    margin-right: 5px;
+}
+
+.details-house .price-house p {
+    color: var(--blue-main);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -4px
+}
+
+.details-house .price-house span {
+    color: var(--blue);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.details-house .images-house {
+    margin-top: 20px;
+    position: relative;
+}
+
+.details-house .images-house .img-house {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.images-house .btn-slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    right: -10px;
+    font-size: 20px;
+}
+
+.images-house .btn-slider.button-prev {
+    left: -10px;
+    right: unset;
+}
+
+.images-house .btn-slider * {
+    background-color: var(--blue);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.images-house .btn-slider .icon {
+    width: 15px;
+}
+
+.details-house .more-details-house .col-12 {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.details-house .more-details-house .col-12 .body-details {
+    box-shadow: 0px 0px 70px #00000029;
+    border-radius: 5px;
+}
+
+.more-details-house .body-details .info-top {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+}
+
+.more-details-house .body-details .info-top .col-3 span {
+    font-size: 15px;
+    color: var(--blue);
+}
+
+.more-details-house .body-details .info-top .count {
+    font-size: 16px;
+}
+
+.more-details-house .body-details .info-top .count .icon {
+    color: var(--blue);
+}
+
+.more-details-house .body-details .description-house {
+    padding: 10px 15px;
+}
+
+.more-details-house .body-details .description-house h4 {
+    color: var(--blue-main);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.more-details-house .body-details .description-house p {
+    color: #9a928a;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.more-details-house .options-house {
+    padding: 15px;
+}
+
+.more-details-house .options-house h4 {
+    color: var(--blue-main);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.more-details-house .options-house .table-options p {
+    font-size: 15px;
+}
+
+.more-details-house .options-house .table-options p span {
+    margin-right: 10px;
+    color: #1e8311;
+}
+
+.options-house .table-options p span.xmark {
+    color: #850505;
+}
+
+.table-options .col-sm-6:nth-child(-n+3),
+.table-options .col-sm-6:nth-child(7),
+.table-options .col-sm-6:nth-child(8),
+.table-options .col-sm-6:nth-child(9) {
+    background-color: #eee;
+}
+
+.consultant-details {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.consultant-details .profile .profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+
+.consultant-details .profile .info-consultant p {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.consultant-details .profile .info-consultant h5 {
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.consultant-details .profile .details-table {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.consultant-details .profile .details-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.consultant-details .profile .details-table tr td {
+    color: #b4b4b4;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.consultant-details .profile .details-table td span {
+    color: var(--blue);
+}
+
+.details-house .consultant-details {
+    box-shadow: 0px 0px 70px #00000029;
+    border-radius: 5px;
+}
+
+.details-house .consultant-details .profile a.btn {
+    display: inline-block;
+    border: 1px solid #e9e3e3;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 20px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: normal;
+    background-color: var(--blue-main);
+}
+
+@media screen and (max-width : 992px) {
+    .details-house .text-house {
+        display: block;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .table-options .col-sm-6 {
+        background-color: #fff !important;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .images-house .btn-slider {
+        right: 10px;
+    }
+
+    .images-house .btn-slider.button-prev {
+        left: 10px;
+    }
+}

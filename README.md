@@ -1,6 +1,6 @@
-# Atawich Restaurant
+# D-REC
 
-> Developed an English website for Atawich Restaurant using html, css, and js.
+> Developed a website for renting and buying houses using the React library.
 >
 > This is first my project with React JS
 

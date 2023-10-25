@@ -12,5 +12,6 @@
 - CSS
 - JS
 - React JS
+- Bootstrap
 - Swiper
 - AOS

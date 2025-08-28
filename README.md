@@ -4,7 +4,7 @@
 >
 > This is first my project with React JS
 
-## [Live Demo](https://dreamy-mccarthy-n3ckua173.iran.liara.run/)
+## [Live Demo](https://d-rec.vercel.app/)
 
 ## Built With
 
